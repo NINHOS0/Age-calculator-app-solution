@@ -3,35 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <meta name="description" content="A challenge proposed by Frontend Mentor">
     <title>Frontend Mentor | Age calculator app</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="assets/style.css" media="all"/>
   </head>
   <body>
     <form>
       <div id="header">
         <div class="item">
           <label for="day">day</label>
-          <input tabindex="1" type="number" id="day" placeholder="dd" maxlength="2" />
+          <input type="number" id="day" placeholder="dd" maxlength="2" />
           <span class="msg"></span>
         </div>
         <div class="item">
           <label for="month">month</label>
-          <input tabindex="2" type="number" id="month" placeholder="mm" maxlength="2" />
+          <input type="number" id="month" placeholder="mm" maxlength="2" />
           <span class="msg"></span>
         </div>
         <div class="item">
           <label for="year">year</label>
-          <input tabindex="3" type="number" id="year" placeholder="yyyy" maxlength="4" />
+          <input type="number" id="year" placeholder="yyyy" maxlength="4" />
           <span class="msg"></span>
         </div>
       </div>
       <span id="masterError"></span>
       <div id="space">
         <hr />
-        <button tabindex="4" type="submit" id="submit">
+        <button type="submit" id="submit">
           <img src="assets/images/icon-arrow.svg" alt="Enviar" />
         </button>
       </div>
@@ -46,6 +45,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/NINHOS0">N1NHOS0</a>.
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js" defer></script>
     <script type="module" src="assets/script.js"></script>
   </body>
 </html>
