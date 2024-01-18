@@ -47,7 +47,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 0.4em;
-  width: 100%;
 }
 
 .item label {
@@ -70,7 +69,6 @@ form {
   padding: 0em 0.8em;
   color: var(--Off-black);
   text-transform: uppercase;
-  line-height: 20px;
   font-size: 1.6em;
   font-weight: 800;
   transition: all .3s ease-in-out;
@@ -97,7 +95,6 @@ form {
 .item .msg {
   font-size: 0.8em;
   font-style: italic;
-  font-weight: 400;
   color: var(--error);
 }
 
@@ -111,7 +108,6 @@ form {
   display: flex;
   align-items: center;
   position: relative;
-  width: 100%;
   height: 80px;
   transition: all .2s ease-in-out;
 }
@@ -119,7 +115,6 @@ form {
 #space hr {
   width: 100%;
   outline: var(--Off-white) 1px solid;
-  position: absolute;
 }
 
 #space button {
@@ -127,7 +122,6 @@ form {
   background: var(--primary);
   width: 80px;
   height: 80px;
-  padding: 1.4em;
   border-radius: 100%;
   z-index: 10;
   right: 0;
@@ -140,8 +134,8 @@ form {
 }
 
 #space img {
-  display: block;
-  width: 100%;
+  width: 45px;
+  height: 45px;
 }
 
 #results {
@@ -156,7 +150,6 @@ form {
 
 #results > span {
   color: var(--primary);
-  font-size: 1em;
   margin-right: 0.1em;
 }
 
@@ -196,8 +189,4 @@ form {
   .attribution {
     text-align: center;
   }
-}
-
-.attribution {
-  align-self: baseline;
 }

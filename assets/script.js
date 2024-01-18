@@ -147,6 +147,6 @@ document.getElementById("submit").addEventListener("click", (e) => {
 });
 
 //Corrected 'maxlength' of the input number
-for (const input of document.querySelectorAll("input[type=number]")) {
-  if (e.target.maxLength) input.addEventListener("input", (e) => (e.target.value = e.target.value.slice(0, e.target.maxLength)));
+for (const input of document.querySelectorAll(".item input")) {
+  input.addEventListener("input", (e) => e.target.value = e.target.value.slice(0, e.target.maxLength));
 }
