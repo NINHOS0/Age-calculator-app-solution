@@ -36,22 +36,24 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ![](https://ninhos0.github.io/Age-calculator-app-solution/)
-- Live Site URL: ![](https://ninhos0.github.io/Age-calculator-app-solution/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/age-calculator-app-html-css-js-and-momentjs-ExY4RLNXg1)
+- Live Site URL: [Preview](https://ninhos0.github.io/Age-calculator-app-solution/)
+- Code URL: [Github](https://github.com/NINHOS0/Age-calculator-app-solution)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
 - CSS Grid
 - [Moment.js](https://momentjs.com/) - JS library
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- During development I tried to apply the fundamentals of clean code.
+- In this project i discovered the moment.js javascript library, to help with the use of dates.
 
 ## Author
 
